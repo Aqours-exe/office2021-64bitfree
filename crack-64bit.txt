@@ -1,0 +1,5 @@
+ここからしたのは1行ずつCMD【管理者】で手入力してね。
+if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16"
+if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16"
+cscript ospp.vbs /sethst:kms.teevee.asia
+cscript ospp.vbs /act
